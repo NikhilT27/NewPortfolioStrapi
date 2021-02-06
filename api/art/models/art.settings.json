@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arts",
+  "info": {
+    "name": "Art"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "art": {
+      "type": "component",
+      "repeatable": true,
+      "component": "art.art"
+    }
+  }
+}

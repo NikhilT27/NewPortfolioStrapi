@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skill"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "skill_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skill.skill-logo"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "BACKEND",
+        "FRONTEND",
+        "DESIGN",
+        "OTHER"
+      ],
+      "required": true
+    }
+  }
+}

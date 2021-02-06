@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_item_technologies",
+  "info": {
+    "name": "Technology",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_project_item_projects",
+  "info": {
+    "name": "Project",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "github_link": {
+      "type": "string"
+    },
+    "deploy_link": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project-item.technology"
+    },
+    "featured": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

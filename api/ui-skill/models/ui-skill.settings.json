@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_skills",
+  "info": {
+    "name": "UI_Skill",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ui_design": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.ui-skill"
+    }
+  }
+}
