@@ -13,7 +13,7 @@
   "attributes": {
     "ui_design": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "ui.ui-skill"
     }
   }
