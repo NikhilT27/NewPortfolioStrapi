@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "arts",
   "info": {
-    "name": "Art"
+    "name": "Art",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,7 +13,7 @@
   "attributes": {
     "art": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "art.art"
     }
   }
